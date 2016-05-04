@@ -9,5 +9,9 @@ indExpData <- c(56:61)
 indFData <- c(1:55,62:71)
 indiceID <- 64
 
-UPSpepx2 <- createMSnset(exprsFile, metadata, indExpData, indFData, indiceID, 
-                          pep_prot_data = "peptide")
+UPSpepx2 <- createMSnset(exprsFile, 
+                        metadata, 
+                        indExpData, 
+                        indFData, 
+                        indiceID, 
+                        pep_prot_data = "peptide")
