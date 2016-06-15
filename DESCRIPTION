@@ -1,14 +1,15 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.0.1
+Version: 1.0.0
 Author: Samuel Wieczorek
 Maintainer: Samuel Wieczorek <samuel.wieczorek@cea.fr>
 Description: Mass-spectrometry based UPS proteomics data sets.
 Depends: R (>= 3.3)
 Suggests: DAPAR, Prostar
-Imports: utils, knitr
+Imports: utils, knitr, MSnbase
 License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData
 NeedsCompilation: no
 RoxygenNote: 5.0.1
+Packaged: 2016-05-07 21:08:48 UTC; biocbuild
