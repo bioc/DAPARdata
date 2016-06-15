@@ -1,4 +1,3 @@
-library("MSnbase")
 library("DAPAR")
 
 exprsFile <- system.file("extdata", "UPSpepx2.txt", package="DAPARdata")

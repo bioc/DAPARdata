@@ -4,7 +4,7 @@
 \name{UPSprot25}
 \alias{UPSprot25}
 \title{UPSprot25 dataset}
-\format{An object of class \code{\link{MSnSet}} related to proteins
+\format{An object of class \code{MSnSet} related to proteins
 quantification. It contains 6 samples divided into two conditions
 (25fmol and 10fmol) and 2384 proteins.
 
@@ -19,7 +19,7 @@ few informations about the samples.}
 data(UPSprot25)
 }
 \value{
-An object of class \code{\link{MSnSet}} related to proteins
+An object of class \code{MSnSet} related to proteins
 quantification.
 }
 \description{
@@ -48,7 +48,7 @@ quantified proteins. Ideally, the 46 quantified human proteins (out of the
 original 48 ones) should be concluded as differentially abundant.
 
 The dataset is either available as a CSV file 
-(see inst/extdata/UPSprot25.txt), or as a \code{\link{MSnSet}} structure 
+(see inst/extdata/UPSprot25.txt), or as a \code{MSnSet} structure 
 (UPSprot25.MSnset). In the latter case, the quantitative data are those of 
 the raw intensities.
 }

@@ -28,13 +28,13 @@
 #' original 48 ones) should be concluded as differentially abundant.
 #' 
 #' The dataset is either available as a CSV file 
-#' (see inst/extdata/UPSprot25.txt), or as a \code{\link{MSnSet}} structure 
+#' (see inst/extdata/UPSprot25.txt), or as a \code{MSnSet} structure 
 #' (UPSprot25.MSnset). In the latter case, the quantitative data are those of 
 #' the raw intensities.
 #' @usage data(UPSprot25)
-#' @return An object of class \code{\link{MSnSet}} related to proteins
+#' @return An object of class \code{MSnSet} related to proteins
 #' quantification.
-#' @format An object of class \code{\link{MSnSet}} related to proteins
+#' @format An object of class \code{MSnSet} related to proteins
 #' quantification. It contains 6 samples divided into two conditions
 #' (25fmol and 10fmol) and 2384 proteins.
 #' 
@@ -83,13 +83,13 @@ NULL
 #' 
 #'
 #' The dataset is either available as a CSV file (see 
-#' inst/extdata/UPSpep25.txt), or as a \code{\link{MSnSet}} structure 
+#' inst/extdata/UPSpep25.txt), or as a \code{MSnSet} structure 
 #' (UPSpep25). In the latter case, the quantitative data are those of the 
 #' raw intensities.
 #' @usage data(UPSpep25)
-#' @return An object of class \code{\link{MSnSet}} related to peptides
+#' @return An object of class \code{MSnSet} related to peptides
 #' quantification.
-#' @format An object of class \code{\link{MSnSet}} related to peptide
+#' @format An object of class \code{MSnSet} related to peptide
 #' quantification. It contains 6 samples divided into two conditions
 #' (25fmol and 10fmol) and 13918 peptides.
 #' 

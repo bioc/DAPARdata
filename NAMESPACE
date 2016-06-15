@@ -1,4 +1,3 @@
-import("MSnbase")
 import("knitr")
 export("DAPARdata")
 importFrom("utils", "data", "packageVersion")
