@@ -4,7 +4,7 @@
 \name{UPSpep25}
 \alias{UPSpep25}
 \title{UPSpep25 dataset}
-\format{An object of class \code{MSnSet} related to peptide
+\format{An object of class \code{\link{MSnSet}} related to peptide
 quantification. It contains 6 samples divided into two conditions
 (25fmol and 10fmol) and 13918 peptides.
 
@@ -19,7 +19,7 @@ few informations about the samples.}
 data(UPSpep25)
 }
 \value{
-An object of class \code{MSnSet} related to peptides
+An object of class \code{\link{MSnSet}} related to peptides
 quantification.
 }
 \description{
@@ -41,7 +41,7 @@ were set to 0.01 by employing a reverse database strategy.
 
 
 The dataset is either available as a CSV file (see 
-inst/extdata/UPSpep25.txt), or as a \code{MSnSet} structure 
+inst/extdata/UPSpep25.txt), or as a \code{\link{MSnSet}} structure 
 (UPSpep25). In the latter case, the quantitative data are those of the 
 raw intensities.
 }
