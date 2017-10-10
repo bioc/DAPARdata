@@ -2,8 +2,13 @@ Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
 <<<<<<< HEAD
+<<<<<<< HEAD
 Version: 1.4.0
 Date: 2016-09-10
+=======
+Version: 1.7.1
+Date: 2017-10-10
+>>>>>>> f9b2b4e... t
 =======
 Version: 1.7.1
 Date: 2017-10-10
